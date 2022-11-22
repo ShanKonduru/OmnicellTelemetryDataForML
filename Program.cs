@@ -31,7 +31,8 @@ namespace OmnicellTelemetryDataForML.ConsoleApp
 
             Console.WriteLine($"Client_Name: {@"XYZ"}");
             Console.WriteLine($"Hardware_Item: {@"DOOR"}");
-            Console.WriteLine($"Cabinet_Address: {@"Cab 1 Cell 1 Door 3"}");
+            Console.WriteLine($"Cabinet_Address: {@"Cab 1 Cell 1 Door 1"}");
+            /*
             Console.WriteLine($"Operation: {@"Open"}");
             Console.WriteLine($"Open_Date___Time: {@"03-01-2016 08:01"}");
             Console.WriteLine($"Duration_Mins: {3F}");
@@ -39,7 +40,7 @@ namespace OmnicellTelemetryDataForML.ConsoleApp
             Console.WriteLine($"Duration_in_Secs: {205F}");
             Console.WriteLine($"Close_Date___Time: {@"03-01-2016 08:05"}");
             Console.WriteLine($"Status: {1F}");
-
+            */
 
             Console.WriteLine($"\n\nPredicted Status: {predictionResult.PredictedLabel}\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
